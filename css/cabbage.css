@@ -1,0 +1,202 @@
+/*头部和搜索框开始*/
+.header{
+    width: 100%;
+    height: 0.8rem;
+    background: #F4483E;
+    box-sizing: border-box;
+}
+.logo{
+    padding: 0.20rem;
+    text-align: center;
+}
+.logo span:nth-child(1) a{
+    float: left;
+    font-size: 0.3rem;
+    font-family: simsun;
+    font-weight: 900;
+    color: white;
+}
+.logo span:nth-child(2){
+    text-align: center;
+    font-size: 0.28rem;
+    font-family: simhei;
+    font-weight: bold;
+    color: white;
+
+}
+.logo img{
+    width: 8%;
+    float:right;
+}
+/*内容开始*/
+#title{
+    list-style: none;
+    padding-bottom: 0.3rem;
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+}
+.nav{
+    position: relative;
+}
+#bord{
+    /*width: 100px;*/
+    border-bottom:2px solid red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#title li{
+    float: left;
+    font-size:0.25rem;
+    font-family: simhei;
+    padding:8px 0;
+    margin-left: 0.3rem;
+    box-sizing: border-box;
+    border-bottom: 2px solid white;
+    /*transition:2s;*/
+}
+.content{
+    background: white;
+    overflow: hidden;
+}
+
+
+#list li{
+    margin-bottom: 10px;
+    list-style: none;
+    /*height: 1.5rem;*/
+}
+#list li .left{
+    width: 40%;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+#list li .right{
+    width: 60%;
+    float: right;
+}
+#list li .left img{
+    width: 80%;
+    height: 80%;
+}
+#list li .right p:nth-child(1){
+    font-size: 0.22rem;
+}
+#list li .right p:nth-child(1) span{
+    font-size: 0.22rem;
+    margin-right: 5px;
+}
+#list li .right p:nth-child(2){
+    font-size: 0.25rem;
+    font-family: simhei;
+    color: #F4483E;
+    margin-top: 0.1rem;
+
+}
+#list li .right p:nth-child(2) em{
+    font-size: 0.25rem;
+    text-decoration:none;
+    margin-right: 5px;
+}
+#list li .right p:nth-child(2) i{
+    text-decoration: none;
+    font-size: 0.22rem;
+    margin-right: 5px;
+    /*color: red;*/
+}
+#list li .right p:nth-child(2) del{
+    font-size: 0.22rem;
+    color: #999;
+    margin-left: 10px;
+}
+.bar i{
+    padding:0;
+    margin:0;
+    display: inline-block;
+    width: 40%;
+    height: 0.15rem;
+    border: 1px solid #F4483E;
+    border-radius:15px;
+    text-align: center;
+    font-size: 0.15rem;
+    position: relative;
+    background:rgba(244,72,62,0.5);
+}
+.bar i em{
+    display: inline-block;
+    height: 100%;
+    background: #F4483E;
+    border-radius:15px;
+    /*float: left;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.bar i span{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    transform:translate(-50%,-50%);
+    font-weight: bold;
+    font-family: simhei;
+    color: white;
+    text-decoration: none;
+}
+.bar{
+    margin: 0.1rem 0;
+    position:relative;
+}
+.bar b{
+    margin-left: 10px;
+    position: absolute;
+    top: -1px;
+    font-size: 0.12rem;
+    color: #F4483E;
+}
+.bottom{
+    width: 100%;
+    display: inline-block;
+}
+.bottom span:nth-child(1){
+    border:1px dashed #F4483E;
+    padding: 0.05rem;
+    float:left;
+}
+.bottom span:nth-child(1) a{
+    font-size: 0.12rem;
+}
+.bottom span:nth-child(2){
+    float: right;
+    display: inline-block;
+    border: 0.07rem solid #F4483E;
+    background: #F4483E;
+    margin-right: 10px;
+    border-radius:5px;
+}
+.bottom span:nth-child(2) a{
+    font-size: 0.12rem;
+    color: white;
+}
+.top{
+    width: 100%;
+    height: 100%;
+    display: none;
+    transition:0.8s;
+    opacity: 0;
+}
+.top{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background: #CCCCCC;
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+}
+.top img{
+    width: 100%;
+    height: 100%;
+}

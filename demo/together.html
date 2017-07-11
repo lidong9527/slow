@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/together.css"/>
+</head>
+<body>
+
+<!--头部开始-->
+<div class="header" id="top">
+    <div class="logo">
+        <span><a href="../index.html"> < </a></span>
+        <span><span id="name"></span>凑单品</span>
+        <img src="../images/header_app.png" alt=""/>
+    </div>
+</div>
+<script src="../js/template.js"></script>
+
+<!--店铺名称模板-->
+<script type="text/html" id="ListH">
+    {{each result as value}}
+    <li shopid={{value.shopId}}>{{value.shopName}}</li>
+    {{/each}}
+</script>
+<!--区域名称模板-->
+<script type="text/html" id="ListR">
+    {{each result as value}}
+    <li areaid={{value.areaId}}>{{value.areaName}}</li>
+    {{/each}}
+</script>
+<!--列表数据模板-->
+<script type="text/html" id="listM">
+    {{each result as value}}
+    <li>
+        <div class="images">
+            <img src="{{value.productImg}}" alt=""/>
+        </div>
+        <p>{{value.productName}}</p>
+        <div class="bottom clearFix">
+            <div class="price">{{value.productPrice}}</div>
+            <div class="btn">去凑单</div>
+        </div>
+    </li>
+    {{/each}}
+</script>
+
+
+
+<!--&lt;!&ndash;店铺名称模板&ndash;&gt;-->
+<!--<script type="text/html" id="shopM">-->
+    <!--{{each result as value}}-->
+    <!--<option value="{{value.shopId}}">{{value.shopName}}</option>-->
+    <!--{{/each}}-->
+<!--</script>-->
+<!--&lt;!&ndash;区域名称模板&ndash;&gt;-->
+<!--<script type="text/html" id="regionM">-->
+    <!--{{each result as value}}-->
+    <!--<option value="{{value.areaId}}">{{value.areaName}}</option>-->
+    <!--{{/each}}-->
+<!--</script>-->
+
+<!--内容开始-->
+<div class="search">
+    <div class="box" flag='true' id="shop">
+        <span>京东<i> > </i></span>
+    </div>
+    <div class="box" flag='true' id="region">
+        <span>华东<i> > </i></span>
+    </div>
+    <div class="box" flag='true' id="much">
+        <span>全部价格<i> > </i></span>
+    </div>
+    <ul id="headList">
+        <!--<li>京东</li>-->
+        <!--<li>一号店</li>-->
+        <!--<li>天猫商城</li>-->
+    </ul>
+    <!--<select name="" id="region">-->
+        <!--<option value="">region</option>-->
+    <!--</select>-->
+    <!--<select name="" id="much">-->
+        <!--<option value="" selected='selected'>全部价格</option>-->
+    <!--</select>-->
+    <input type="button" id="searchBtn" value="{{}}"/>
+</div>
+<!--列表菜单开始-->
+<ul class="listMenu clearFix">
+    <!--<li>-->
+        <!--<div class="images">-->
+            <!--<img src="../images/star.svg" alt=""/>-->
+        <!--</div>-->
+        <!--<p>asdas</p>-->
+        <!--<div class="bottom clearFix">-->
+            <!--<div class="price">237</div>-->
+            <!--<div class="btn">去凑单</div>-->
+        <!--</div>-->
+    <!--</li>-->
+    <!--<li>asd</li>-->
+    <!--<li>asd</li>-->
+    <!--<li>asda</li>-->
+</ul>
+
+
+<!--底部开始-->
+<div class="footer">
+    <ul class="clearFix">
+        <li><a href="###">登录</a></li>
+        <li><a href="###">注册</a></li>
+        <li><a href="#top"><span><img src="../images/goBack.bmp" alt=""/></span>返回顶部</a></li>
+    </ul>
+    <p><span>手机APP下载</span>慢慢买手机版<span>--掌上比价平台</span></p>
+    <span>m.manmanbuy.com</span>
+</div>
+<script src="../js/rem.js"></script>
+<script src="../js/jquery-1.12.2.js"></script>
+<script src='../js/together.js'></script>
+</body>
+</html>

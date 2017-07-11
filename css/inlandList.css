@@ -1,0 +1,87 @@
+/*头部和搜索框开始*/
+
+.header{
+    width: 100%;
+    height: 0.8rem;
+    background: #FF841D;
+    box-sizing: border-box;
+}
+.logo{
+    padding: 0.20rem;
+    text-align: center;
+}
+.logo span:nth-child(1) a{
+    float: left;
+    font-size: 0.3rem;
+    font-family: simsun;
+    font-weight: 900;
+    color: white;
+}
+.logo span:nth-child(2){
+    text-align: center;
+    font-size: 0.28rem;
+    font-family: simhei;
+    font-weight: bold;
+    color: white;
+
+}
+.logo img{
+    width: 8%;
+    float:right;
+}
+
+#list li{
+    width: 50%;
+    border:1px solid #CCCCCC;
+    box-sizing: border-box;
+    float: left;
+    height: 4.5rem;
+    padding:10px;
+    list-style: none;
+    background: white;
+}
+#list li a .images{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+}
+#list li a .images img{
+    width: 90%;
+    height: 100%;
+}
+#list li a p.tit{
+    width: 100%;
+    /*height: 40px;*/
+    font-size: 0.23rem;
+    /*/!*font-family: simhei;*!/*/
+    /*font-weight: bold;*/
+    /*overflow: hidden;*/
+    color: #000000;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+
+
+}
+#list li a .much{
+    width: 100%;
+    color: orange;
+    font-size: 0.20rem;
+    margin-top: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+}
+#list li a span{
+    display: inline-block;
+    margin-top: 5px;
+    font-size:0.20rem;
+}
+
+
+
+

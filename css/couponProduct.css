@@ -1,0 +1,136 @@
+/*头部和搜索框开始*/
+.header{
+    width: 100%;
+    height: 0.8rem;
+    background: #F4483E;
+    box-sizing: border-box;
+}
+.logo{
+    padding: 0.20rem;
+    text-align: center;
+}
+.logo span:nth-child(1) a{
+    float: left;
+    font-size: 0.3rem;
+    font-family: simsun;
+    font-weight: 900;
+    color: white;
+}
+.logo span:nth-child(2),#name{
+    text-align: center;
+    font-size: 0.28rem;
+    font-family: simhei;
+    font-weight: bold;
+    color: white;
+
+}
+.logo img{
+    width: 8%;
+    float:right;
+}
+.content{
+    background: white;
+}
+.head{
+    padding-top:5px;
+    margin-bottom:15px;
+}
+.head p{
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+.list ul li{
+    padding-top: 10px;
+    border-bottom:1px solid #999;
+    /*height: 2rem;*/
+}
+.list ul li .leftImg{
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.list ul li .leftImg img{
+    width: 80%;
+    height: 70%;
+}
+.list ul li .right{
+    width: 65%;
+    height: 100%;
+    float: left;
+    padding-bottom:20px;
+    position: relative;
+}
+.list ul li .rright{
+    float: right;
+    width: 5%;
+    font-family: simsun;
+    font-size: 25px;
+    line-height: 2rem;
+}
+.list ul li .right p:nth-of-type(1){
+    font-size: 0.21rem;
+    font-family: simhei;
+    line-height: 0.4rem;
+}
+.list ul li .right p:nth-of-type(2){
+    font-size: 0.23rem;
+    font-family: simhei;
+    margin-top: 10px;
+}
+.list ul li .right p:nth-of-type(3){
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    color: #FF841D;
+    font-size: 0.18rem;
+    font-family: simhei;
+}
+.box{
+    transition: 1.2s;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0);
+    top: 0;
+    left: 0;
+    display: none;
+}
+.box .images{
+    position: fixed;
+    left: 50%;
+    top:50%;
+    width: 100%;
+    height: 2.5rem;
+    transform:translate(-50%,-50%);
+    text-align:center;
+    opacity: 0;
+    transition:2s;
+}
+.box .images .img{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform:translateX(-50%);
+}
+.box .images .img img{
+    width:100%;
+    height: 100%;
+}
+.box .images .left{
+    float: left;
+    width: 25%;
+    font-size: 50px;
+    font-family: simsun;
+    color: #CCCCCC;
+}
+.box .images .right{
+    float: right;
+    width: 25%;
+    font-size: 50px;
+    font-family: simsun;
+    color: #CCCCCC;
+}

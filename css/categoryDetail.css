@@ -1,0 +1,170 @@
+/*头部和搜索框开始*/
+
+.header{
+    width: 100%;
+    height: 0.8rem;
+    background: #FF841D;
+    box-sizing: border-box;
+}
+.logo{
+    padding: 0.20rem;
+}
+.logo img:nth-child(1){
+    width: 56%;
+    float:left;
+}
+.logo img:nth-child(2){
+    width: 8%;
+    float:right;
+}
+.search{
+    width: 100%;
+    height: 0.8rem;
+    background: white;
+    box-sizing: border-box;
+    padding: 0.15rem;
+    /*text-align: center;*/
+}
+
+.search input:nth-child(1){
+    box-sizing: border-box;
+    width: 83%;
+    height: 100%;
+    border:none;
+    padding-left: 25px;
+    border-radius: 25px;
+    background: #F1F1F1;
+    border-style: none;
+    font-size:0.2rem;
+    outline:none;
+    float: left;
+}
+.search input:nth-child(2){
+    box-sizing: border-box;
+    width: 15%;
+    height: 100%;
+    background: #FF841D;
+    border-radius: 25px;
+    font-size: 0.2rem;
+    border:none;
+    outline:none;
+    color: white;
+    float: right;
+    cursor: pointer;
+
+}
+/*列表开始*/
+.listHead{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    background: #EDEDED;
+}
+.listHead input{
+    margin-right: 10px;
+    float: right;
+    height: 0.4rem;
+    width: 0.6rem;
+    border:1px solid #CCCCCC;
+    border-radius: 10px;
+    margin-top: 0.05rem;
+    font-size: 0.15rem;
+}
+.listHead span{
+    float: left;
+    padding-left: 0.1rem;
+    font-family: simsun;
+}
+.listHead span a{
+    font-family: simhei;
+    font-size: 0.18rem;
+}
+/*列表菜单*/
+#listUl{
+    padding-top: 10px;
+    list-style: none;
+    background: white;
+}
+#listUl li{
+    box-sizing: border-box;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-bottom:1px solid #CCCCCC;
+}
+#listUl li>a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+#listUl li .left img{
+    width: 80%;
+    height: 80%;
+    /*margin-top: 10%;*/
+    /*margin-left: 10%;*/
+}
+#listUl li .left{
+    float: left;
+    width: 25%;
+    height: 1.5rem;
+}
+#listUl li .right{
+    width: 75%;
+    float: right;
+}
+#listUl li .right p:nth-child(1){
+    margin-top: 0.1rem;
+    font-size: 0.23rem;
+    font-family: simhei;
+}
+#listUl li .right p:nth-child(2){
+    font-size: 0.23rem;
+    color: red;
+    margin:0.05rem 0;
+}
+#listUl li .down{
+    color: #AEAEAE;
+    /*text-align: center;*/
+}
+#listUl li .down span{
+    font-size: 0.16rem;
+
+}
+
+/*页数样式*/
+.box{
+    padding-top: 20px;
+    position: relative;
+    padding-bottom: 5px;
+}
+#se{
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1rem;
+    height: 0.5rem;
+    box-sizing: border-box;
+    padding-left: 0.3rem;
+    font-size: 0.22rem;
+}
+.bottom .box input{
+    background: #DADADA;
+    width: 1.5rem;
+    height: 0.5rem;
+    font-size: 0.2rem;
+    border:1px solid #CCCCCC;
+    outline: none;
+    border-radius: 8px;
+}
+#btnUp{
+    float: left;
+    margin-left: 20px;
+
+}
+#btnDown{
+    float: right;
+    margin-right: 20px;
+
+}
+
+
+/**/

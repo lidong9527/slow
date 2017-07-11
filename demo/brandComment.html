@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title></title>
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/brandComment.css"/>
+</head>
+<body>
+<script src="../js/template.js"></script>
+<script type="text/html" id="listM">
+    {{each result as value}}
+    <li>
+        <p>
+            <span class="name">{{value.comName}}</span>
+            <span>★ ★ ★ ★ ★</span>
+            <span>{{value.comTime}}</span>
+        </p>
+        <p>{{value.comContent}}</p>
+        <div class="box"></div>
+    </li>
+    {{/each}}
+</script>
+
+<div class="header" id="top">
+    <div class="logo">
+        <img src="../images/header_logo.png" alt=""/>
+        <img src="../images/header_app.png" alt=""/>
+    </div>
+</div>
+
+
+<!--列表开始-->
+<div class="list">
+    <div class="listHead">
+        <span id="listHead"><a href="../index.html">首页</a> > <a href="brand.html">全部分类</a> > <a id="re" href="javascript:;">返回</a> > </span>
+    </div>
+</div>
+<!--内容开始-->
+<div class="content">
+    <div class="head"></div>
+    <ul id="list">
+        <li>
+            <p>
+                <span class="name">名称</span>
+                <span>★ ★ ★ ★ ★</span>
+                <span>时间</span>
+            </p>
+            <p>文本</p>
+        </li>
+    </ul>
+</div>
+<!--底部开始-->
+<div class="footer">
+    <ul class="clearFix">
+        <li><a href="###">登录</a></li>
+        <li><a href="###">注册</a></li>
+        <li><a href="#top"><span><img src="../images/goBack.bmp" alt=""/></span>返回顶部</a></li>
+    </ul>
+    <p><span>手机APP下载</span>慢慢买手机版<span>--掌上比价平台</span></p>
+    <span>m.manmanbuy.com</span>
+</div>
+<script src="../js/rem.js"></script>
+<script src="../js/jquery-1.12.2.js"></script>
+<script src="../js/brandComment.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+/*头部和搜索框开始*/
+
+.header{
+    width: 100%;
+    height: 0.8rem;
+    background: #FF841D;
+    box-sizing: border-box;
+}
+.logo{
+    padding: 0.20rem;
+}
+.logo img:nth-child(1){
+    width: 56%;
+    float:left;
+}
+.logo img:nth-child(2){
+    width: 8%;
+    float:right;
+}
+.search{
+    width: 100%;
+    height: 0.8rem;
+    background: white;
+    box-sizing: border-box;
+    padding: 0.15rem;
+    /*text-align: center;*/
+}
+
+.search input:nth-child(1){
+    box-sizing: border-box;
+    width: 83%;
+    height: 100%;
+    border:none;
+    padding-left: 25px;
+    border-radius: 25px;
+    background: #F1F1F1;
+    border-style: none;
+    font-size:0.2rem;
+    outline:none;
+    float: left;
+}
+.search input:nth-child(2){
+    box-sizing: border-box;
+    width: 15%;
+    height: 100%;
+    background: #FF841D;
+    border-radius: 25px;
+    font-size: 0.2rem;
+    border:none;
+    outline:none;
+    color: white;
+    float: right;
+    cursor: pointer;
+
+}
+/*列表头部*/
+/*列表开始*/
+.listHead{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    background: #EDEDED;
+}
+.listHead input{
+    margin-right: 10px;
+    float: right;
+    height: 0.4rem;
+    width: 0.6rem;
+    border:1px solid #CCCCCC;
+    border-radius: 10px;
+    margin-top: 0.05rem;
+    font-size: 0.15rem;
+}
+.listHead span{
+    float: left;
+    padding-left: 0.1rem;
+    font-family: simsun;
+}
+.listHead span a{
+    font-family: simhei;
+    font-size: 0.18rem;
+}
+/*#Name{*/
+    /*display: inline-block;*/
+    /*width: 30%;*/
+    /*height: 0.5rem;*/
+    /*line-height: 0.5rem;*/
+    /*color: red;*/
+    /*overflow: hidden;*/
+/*}*/
+.list_little ul{
+    list-style: none;
+}
+.list_little ul li{
+    float: left;
+    width: 33%;
+}
+.list_little ul li a{
+    display: inline-block;
+    width: 100%;
+    background: #FFC831;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    border:1px solid #CB620C;
+    font-size:0.18rem;
+    font-family: simhei;
+    color: white;
+}
+.list_little ul li:nth-child(1) a{
+    background: #FF960E;
+}
+.listMenu{
+    padding-top:10px;
+    box-sizing: border-box;
+    background: white;
+    text-align: center;
+}
+.listMenu > p{
+    display: inline-block;
+    width: 80%;
+    font-size: 0.30rem;
+    font-family:simhei;
+}
+.red{
+    color:red;
+}
+.p_pic img{
+    vertical-align:middle;
+}
+.much table{
+    padding:5px 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+/*//评价开始*/
+.commentHead{
+    background: #DBDBDB;
+    height: 0.5rem;
+    text-align: center;
+    font-size:0.25rem;
+    line-height: 0.5rem;
+}
+.comment{
+    padding: 5px;
+}
+.comment span.date{
+    float: right;
+}
+.comment p{
+    text-align: right;
+    padding:5px 0;
+}
+.comment .text{
+    border-bottom:1px solid #CCCCCC;
+    line-height: 20px;
+}
+.commentBottom{
+    margin: 10px 0;
+}
+.commentBottom input{
+    width: 90%;
+    margin-left:5%;
+    font-size: 0.25rem;
+    height:0.5rem;
+    border-radius:5px;
+    border:1px solid #CCCCCC;
+
+}

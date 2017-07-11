@@ -1,0 +1,104 @@
+/*头部和搜索框开始*/
+
+.header{
+    width: 100%;
+    height: 0.8rem;
+    background: #FF841D;
+    box-sizing: border-box;
+}
+.logo{
+    padding: 0.20rem;
+}
+.logo img:nth-child(1){
+    width: 56%;
+    float:left;
+}
+.logo img:nth-child(2){
+    width: 8%;
+    float:right;
+}
+.search{
+    width: 100%;
+    height: 0.8rem;
+    background: white;
+    box-sizing: border-box;
+    padding: 0.15rem;
+    /*text-align: center;*/
+}
+
+.search input:nth-child(1){
+    box-sizing: border-box;
+    width: 83%;
+    height: 100%;
+    border:none;
+    padding-left: 25px;
+    border-radius: 25px;
+    background: #F1F1F1;
+    border-style: none;
+    font-size:0.2rem;
+    outline:none;
+    float: left;
+}
+.search input:nth-child(2){
+    box-sizing: border-box;
+    width: 15%;
+    height: 100%;
+    background: #FF841D;
+    border-radius: 25px;
+    font-size: 0.2rem;
+    border:none;
+    outline:none;
+    color: white;
+    float: right;
+    cursor: pointer;
+
+}
+/*列表开始*/
+#listUl{
+  list-style: none;
+}
+#listUl>li{
+    /*background: #EDEDED;*/
+    width: 100%;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    border-bottom: 1px solid #E0E0E0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+#listUl>li span{
+    float: left;
+    font-size: 0.2rem;
+    font-weight: bold;
+}
+#listUl>li strong{
+    float: right;
+    font-size: 0.2rem;
+    font-family: simsun;
+    /*transform: rotate(90deg);*/
+}
+ul.listSed{
+    background: white;
+}
+ul.listSed li{
+    list-style: none;
+    display:inline-block;
+    width: 32.7%;
+    text-align: center;
+    border:1px solid #D7D7D7;
+    /*height: 0.5rem;*/
+    /*line-height: 0.5rem;*/
+    /*font-size: 0.15rem;*/
+}
+ul.listSed li a{
+    display: inline-block;
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    font-size: 0.15rem;
+}
+ul.listSed{
+    display: none;
+    /*height:0;*/
+}
+

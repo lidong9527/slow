@@ -1,0 +1,146 @@
+/*头部和搜索框开始*/
+
+.header{
+    width: 100%;
+    height: 0.8rem;
+    background: #FF841D;
+    box-sizing: border-box;
+}
+.logo{
+    padding: 0.20rem;
+}
+.logo img:nth-child(1){
+    width: 56%;
+    float:left;
+}
+.logo img:nth-child(2){
+    width: 8%;
+    float:right;
+}
+.search{
+    width: 100%;
+    height: 0.8rem;
+    background: white;
+    box-sizing: border-box;
+    padding: 0.15rem;
+    /*text-align: center;*/
+}
+
+.search input:nth-child(1){
+    box-sizing: border-box;
+    width: 83%;
+    height: 100%;
+    border:none;
+    padding-left: 25px;
+    border-radius: 25px;
+    background: #F1F1F1;
+    border-style: none;
+    font-size:0.2rem;
+    outline:none;
+    float: left;
+}
+.search input:nth-child(2){
+    box-sizing: border-box;
+    width: 15%;
+    height: 100%;
+    background: #FF841D;
+    border-radius: 25px;
+    font-size: 0.2rem;
+    border:none;
+    outline:none;
+    color: white;
+    float: right;
+    cursor: pointer;
+
+}
+/*列表开始*/
+.listHead{
+    height: 0.5rem;
+    line-height: 0.5rem;
+    background: #EDEDED;
+}
+.listHead input{
+    margin-right: 10px;
+    float: right;
+    height: 0.4rem;
+    width: 0.6rem;
+    border:1px solid #CCCCCC;
+    border-radius: 10px;
+    margin-top: 0.05rem;
+    font-size: 0.15rem;
+}
+.listHead span{
+    float: left;
+    padding-left: 0.1rem;
+    font-family: simsun;
+}
+.listHead span a{
+    font-family: simhei;
+    font-size: 0.18rem;
+}
+.content{
+    background: white;
+    padding-top: 10px;
+}
+.content .head{
+    padding: 10px;
+    border-bottom:1px solid #AAA;
+    color: #885C2C;
+    font-size: 0.25rem;
+    font-family: simhei;
+    font-weight: bold;
+    background: #DCDCDC;
+    /*margin-top: 10px;*/
+    margin-bottom: 10px;
+}
+.content ul li{
+    list-style: none;
+    border-bottom:1px solid #999;
+    /*background: #DCDCDC;*/
+
+}
+.content ul li a {
+    padding: 10px;
+    display: inline-block;
+    width: 95%;
+    height: 100%;
+
+}
+.content ul li a span:nth-of-type(2){
+    font-size: 0.25rem;
+    font-weight: bold;
+    font-family: simhei;
+    margin-left: 10px;
+
+}
+.content ul li a .right{
+    float: right;
+    font-size: 0.35rem;
+    font-family:simsun;
+    font-weight:900;
+    color: #999;
+}
+.content ul li a .left{
+    display: inline-block;
+    height: 100%;
+}
+.content ul li a .left span{
+    display: inline-block;
+    padding: 2px 7px;
+    font-size: 0.1rem;
+    background: #c3c3c3;
+    color: white;
+}
+.content ul li:nth-of-type(1) a .left span{
+    background: red;
+}
+.content ul li:nth-of-type(2) a .left span{
+    background: orange;
+}
+.content ul li:nth-of-type(3) a .left span{
+    background: lightgreen;
+}
+.content ul li a p{
+    margin-left: 37px;
+    color: #c3c3c3;
+}

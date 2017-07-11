@@ -1,0 +1,82 @@
+/*头部和搜索框开始*/
+.header{
+    width: 100%;
+    height: 0.8rem;
+    background: #F4483E;
+    box-sizing: border-box;
+}
+.logo{
+    padding: 0.20rem;
+    text-align: center;
+}
+.logo span:nth-child(1) a{
+    float: left;
+    font-size: 0.3rem;
+    font-family: simsun;
+    font-weight: 900;
+    color: white;
+}
+.logo span:nth-child(2){
+    text-align: center;
+    font-size: 0.28rem;
+    font-family: simhei;
+    font-weight: bold;
+    color: white;
+
+}
+.logo img{
+    width: 8%;
+    float:right;
+}
+/*内容样式开始*/
+.content{
+    padding: 10px;
+    background: white;
+}
+.content>ul{
+    list-style: none;
+}
+.content>ul li:nth-of-type(3n+0){
+    margin-right: 0;
+}
+.content>ul li{
+    width: 30%;
+    height: 1.5rem;
+    float: left;
+    box-sizing: border-box;
+    border: 1px solid #CCCCCC;
+    margin-right: 5%;
+    margin-bottom:5%;
+}
+.content>ul li a{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.content>ul li a img{
+    margin-top: 0.1rem;
+    width: 50%;
+    height: 50%;
+    /*text-align: center;*/
+}
+.content>ul li a p:nth-of-type(2){
+    margin-top: 0.1rem;
+    font-size: 0.2rem;
+
+}
+.head{
+    padding:0.15rem 0.1rem;
+    background: #f1f1f1;
+}
+.head ul{
+    list-style: none;
+}
+.head ul li{
+    float: left;
+
+}
+.head ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
